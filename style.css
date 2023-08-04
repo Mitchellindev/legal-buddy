@@ -22,7 +22,6 @@ body {
 
 /* navigation  */
 nav {
-	background-color: var(--blue);
 	color: var(--white);
 	padding: 1rem 5%;
 }
@@ -48,7 +47,8 @@ body > header > nav > div > button.btn.btn-light.px-3.py-1 > a {
 }
 
 body > header {
-	background-image: url("./images/image0\ \(8\)\ 1.png");
+	background: Linear-gradient(rgba(28, 41, 83, 0.7), rgba(0, 0, 0, 0.7)),
+		url("./images/image0\ \(8\)\ 1.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
