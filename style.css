@@ -86,7 +86,15 @@ body > main > section:nth-child(2) {
 
 body > footer > section,
 body > main > section:nth-child(2),
-body > main > section:nth-child(4) {
+body > main > section:nth-child(4),
+body
+	> main
+	> section.z-n1
+	> div.d-flex.gap-5.justify-content-between.py-5
+	> div.position-relative.w-75
+	> div
+	> div
+	> p.px-3.mb-0.py-2.rounded-circle {
 	background-color: var(--blue);
 }
 
